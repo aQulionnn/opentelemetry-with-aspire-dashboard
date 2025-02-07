@@ -1,0 +1,24 @@
+﻿services:
+  ui:
+    image: ui
+    container_name: webapi
+    build:
+      context: .
+      dockerfile: ui/Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - mynetwork
+    environment:
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://opentelemetry:18889
+  
+  opentelemetry:
+    image: mcr.microsoft.com/dotnet/nightly/aspire-dashboard:latest
+    container_name: dashboard
+    ports:
+      - "18888:18888"
+    networks:
+      - mynetwork
+    
+networks:
+  mynetwork:

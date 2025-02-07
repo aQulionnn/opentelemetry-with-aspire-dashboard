@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  ui:
+    build:
+      context: "D:\\bekasker\\projects\\test\\opentelemetry-with-aspire-dashboard"
+      dockerfile: "ui/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ui.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ui:dev"
+    ports: []
+    volumes:
+    - "D:\\bekasker\\projects\\test\\opentelemetry-with-aspire-dashboard\\ui:/app:rw"
+    - "D:\\bekasker\\projects\\test\\opentelemetry-with-aspire-dashboard:/src:rw"
+    - "C:\\Users\\bekasker\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"
