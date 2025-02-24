@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "lNjm5+iR75sIsF1BsvtkJHiFgWwmgjwSnElknRJKpoY=",
+  "Hash": "Vv3jR29V75lC7/+sQrzzpmaIUpbfJfjN+KDIFOPCNoI=",
   "Source": "ui",
   "BasePath": "_content/ui",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

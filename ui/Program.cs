@@ -34,7 +34,10 @@ builder.Services.AddOpenTelemetry()
             .AddHttpClientInstrumentation()
             .AddEntityFrameworkCoreInstrumentation();
 
-        tracing.AddOtlpExporter();
+        tracing.AddOtlpExporter(options =>
+        {
+            options.Endpoint = new Uri("http://jaeger:4317");
+        });
     });
 
 builder.Logging.AddOpenTelemetry(logging => logging.AddOtlpExporter());
