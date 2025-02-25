@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zaCXra3AKzw=",
+  "dgSpecHash": "XV9QXaDhQxs=",
   "success": true,
   "projectFilePath": "D:\\bekasker\\projects\\test\\opentelemetry-with-aspire-dashboard\\ui\\ui.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.api\\1.11.1\\opentelemetry.api.1.11.1.nupkg.sha512",
     "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.11.1\\opentelemetry.api.providerbuilderextensions.1.11.1.nupkg.sha512",
     "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.11.1\\opentelemetry.exporter.opentelemetryprotocol.1.11.1.nupkg.sha512",
+    "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.exporter.prometheus.aspnetcore\\1.11.0-beta.1\\opentelemetry.exporter.prometheus.aspnetcore.1.11.0-beta.1.nupkg.sha512",
     "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.11.1\\opentelemetry.extensions.hosting.1.11.1.nupkg.sha512",
     "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.11.0\\opentelemetry.instrumentation.aspnetcore.1.11.0.nupkg.sha512",
     "C:\\Users\\bekasker\\.nuget\\packages\\opentelemetry.instrumentation.entityframeworkcore\\1.11.0-beta.1\\opentelemetry.instrumentation.entityframeworkcore.1.11.0-beta.1.nupkg.sha512",

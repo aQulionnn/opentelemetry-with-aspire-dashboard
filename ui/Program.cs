@@ -24,8 +24,8 @@ builder.Services.AddOpenTelemetry()
             .AddHttpClientInstrumentation();
 
         metrics.AddMeter(DignosticsConfig.Meter.Name);
-        
-        metrics.AddOtlpExporter();
+
+        metrics.AddPrometheusExporter();
     })
     .WithTracing(tracing =>
     {
@@ -49,6 +49,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseOpenTelemetryPrometheusScrapingEndpoint();
 
 app.UseHttpsRedirection();
 

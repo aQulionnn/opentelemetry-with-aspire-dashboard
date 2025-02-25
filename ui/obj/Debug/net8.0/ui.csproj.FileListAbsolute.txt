@@ -62,3 +62,4 @@ D:\bekasker\projects\test\opentelemetry-with-aspire-dashboard\ui\bin\Debug\net8.
 D:\bekasker\projects\test\opentelemetry-with-aspire-dashboard\ui\obj\Debug\net8.0\ui.sourcelink.json
 D:\bekasker\projects\test\opentelemetry-with-aspire-dashboard\ui\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\bekasker\projects\test\opentelemetry-with-aspire-dashboard\ui\obj\Debug\net8.0\staticwebassets\msbuild.ui.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\bekasker\projects\test\opentelemetry-with-aspire-dashboard\ui\bin\Debug\net8.0\OpenTelemetry.Exporter.Prometheus.AspNetCore.dll

@@ -27,6 +27,27 @@
       - 4317:4317
       - 4318:4318
       - 16686:16686
-    
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: monitoring
+    ports:
+      - "9090:9090"
+    networks:
+      - mynetwork
+    depends_on:
+      - ui
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: monitoring-ui
+    ports:
+      - 3000:3000
+    networks:
+      - mynetwork
+    depends_on:
+      - prometheus
+      
+
 networks:
   mynetwork:
